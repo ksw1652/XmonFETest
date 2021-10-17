@@ -1,5 +1,5 @@
-# TMON FE CORDING TEST
-> 티켓 몬스터 FE 직군 경력 입사 테스트
+# XMON FE CORDING TEST
+> X몬 FE 직군 경력 입사 테스트
 
 ## Content
 1. [개발 환경](#dev-spec)
@@ -22,7 +22,7 @@
 </h3>
 
 ```bash
-└── TMON FE CORDING TEST
+└── XMON FE CORDING TEST
     ├── img                         # 이미지 저장 폴더
     ├── style                       # css파일 저장 폴더
     └── js                          # js파일 저장 푤더   
@@ -39,9 +39,6 @@
 </h3>
 
 * 라이브 서버는 따로 구축하지 않았습니다. 파일시스템에서 answer.html 불러올 경우 script의 CORS issue 때문에 실행되지 않습니다.
-
-* 이를 위하여 aws s3에 파일을 업로드해 두었습니다. 
-[코딩테스트 실행하기](http://www.tmonfetest.co.kr.s3-website.ap-northeast-2.amazonaws.com/)
 
 <h3 id="dependencies">
     4. Dependencies
